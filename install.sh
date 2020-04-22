@@ -1,1 +1,1 @@
-cp ./.zshrc /root/.zshrc
+cp ./.zshrc ~/.zshrc

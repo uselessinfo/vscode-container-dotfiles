@@ -19,3 +19,9 @@ If it is working, you should see the following in the logs when you run `Remote-
 [54042 ms] 
 [54043 ms] Cloning into '/root/dotfiles'...
 ```
+
+# Gotchas
+
+Make sure your `install.sh` script is executable, or the install process will fail.
+
+There are two sets of settings `remote.containers.dotfiles...` and `dotfiles...`. I don't know how they differ, but make sure to pick the `remote.containers.dotfiles` settings, just in case. 
